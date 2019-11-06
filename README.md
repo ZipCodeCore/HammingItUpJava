@@ -39,7 +39,7 @@ of equal length differently.
 
 ## Hints
 
-This is an first exercise with tests that require you to throw an
+This is an exercise with tests that require you to throw an
 [`Exception`](https://docs.oracle.com/javase/8/docs/api/java/lang/Exception.html). `Exception`s are typically thrown to
 indicate that a program has encountered an unexpected input or state.
 
