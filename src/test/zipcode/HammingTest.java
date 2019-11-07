@@ -15,6 +15,7 @@ public class HammingTest {
 
     @Test
     public void testNoDistanceBetweenEmptyStrands() {
+
         assertEquals(0, new Hamming("", "").getHammingDistance());
     }
 
