@@ -9,5 +9,8 @@
         <module name="HammingJava" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="HammingJava" target="7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
