@@ -13,6 +13,8 @@ public class HammingTest {
     @Rule
     public ExpectedException expectedException = ExpectedException.none();
 
+
+
     @Test
     public void testNoDistanceBetweenEmptyStrands() {
         assertEquals(0, new Hamming("", "").getHammingDistance());
