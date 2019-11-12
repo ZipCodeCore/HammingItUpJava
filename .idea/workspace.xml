@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4458764f-cea5-4520-b9e0-019605c8de45" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/zipcode/Hamming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/zipcode/Hamming.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/zipcode/HammingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/zipcode/HammingTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +64,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HammingTest.testValidatesSecondStrandNotLonger">
+  <component name="RunManager" selected="JUnit.HammingTest.testNoDistanceBetweenLongIdenticalStrands">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -79,23 +77,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HammingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HammingJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="java" />
-      <option name="MAIN_CLASS_NAME" value="java.HammingTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HammingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HammingTest.testNoDistanceBetweenEmptyStrands" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HammingJava" />
       <extension name="coverage">
         <pattern>
@@ -105,7 +87,42 @@
       </extension>
       <option name="PACKAGE_NAME" value="zipcode" />
       <option name="MAIN_CLASS_NAME" value="zipcode.HammingTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="testNoDistanceBetweenEmptyStrands" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HammingTest.testNoDistanceBetweenLongIdenticalStrands" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HammingJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zipcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="zipcode" />
+      <option name="MAIN_CLASS_NAME" value="zipcode.HammingTest" />
+      <option name="METHOD_NAME" value="testNoDistanceBetweenLongIdenticalStrands" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HammingTest.testNoDistanceBetweenShortIdenticalStrands" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HammingJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zipcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="zipcode" />
+      <option name="MAIN_CLASS_NAME" value="zipcode.HammingTest" />
+      <option name="METHOD_NAME" value="testNoDistanceBetweenShortIdenticalStrands" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -172,10 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HammingTest.testValidatesSecondStrandNotLonger" />
+        <item itemvalue="JUnit.HammingTest.testNoDistanceBetweenLongIdenticalStrands" />
+        <item itemvalue="JUnit.HammingTest.testNoDistanceBetweenShortIdenticalStrands" />
+        <item itemvalue="JUnit.HammingTest.testNoDistanceBetweenEmptyStrands" />
         <item itemvalue="JUnit.HammingTest.testValidatesFirstStrandNotLonger" />
-        <item itemvalue="JUnit.HammingTest (1)" />
-        <item itemvalue="JUnit.HammingTest" />
+        <item itemvalue="JUnit.HammingTest.testValidatesSecondStrandNotLonger" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +209,7 @@
       <updated>1573054127068</updated>
       <workItem from="1573054128455" duration="1124000" />
       <workItem from="1573055514433" duration="709000" />
-      <workItem from="1573596931943" duration="1346000" />
+      <workItem from="1573596931943" duration="2516000" />
     </task>
     <servers />
   </component>
