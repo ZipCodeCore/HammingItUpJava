@@ -1,4 +1,6 @@
 # HammingItUpJava (Hamming)
+Fork this repository and submit the URL of your fork via the Student Portal.
+
 
 Calculate the *Hamming difference* between two DNA strands.
 
