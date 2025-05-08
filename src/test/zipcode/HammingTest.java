@@ -3,7 +3,7 @@ package zipcode;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
-import zipcode.Hamming;
+
 
 import static org.junit.Assert.assertEquals;
 
@@ -12,6 +12,8 @@ public class HammingTest {
 
     @Rule
     public ExpectedException expectedException = ExpectedException.none();
+
+
 
     @Test
     public void testNoDistanceBetweenEmptyStrands() {
